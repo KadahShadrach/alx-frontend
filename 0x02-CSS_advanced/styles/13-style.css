@@ -1,0 +1,21 @@
+/* styles/12-style.css */
+
+/* Ensuring that only anchor elements containing hyperlinks are targeted */
+a[href] {
+    /* Your styles here */
+}
+
+/* Targeting the visited state of anchor elements */
+a[href]:visited {
+    font-style: italic; /* Italicize the text */
+}
+
+/* Targeting the hover state of anchor elements */
+a[href]:hover {
+    text-decoration: underline; /* Decorate with underline when hovering */
+}
+
+/* Targeting the active state of anchor elements */
+a[href]:active {
+    background-color: var(--color-light-grey); /* Set background color with custom variable */
+}
